@@ -48,8 +48,8 @@ def clean_data(data: pd.DataFrame):
 
 # main
 if __name__ == "__main__":
-    input_file = "../data/Online_Retail.xlsx"   #change if needed
-    clean_file = "../data/cleaned_retail.csv"
+    input_file = "data/Online_Retail.xlsx"   #change if needed
+    clean_file = "data/cleaned_retail.csv"
 
     data = load_data(input_file)
     data_clean = clean_data(data)
